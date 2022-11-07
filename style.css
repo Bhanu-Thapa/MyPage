@@ -1,0 +1,40 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 100px 500px 95px;
+}
+
+nav {
+  color: white;
+  background-color: black;
+}
+
+.grid-container section {
+  background-color: wheat;
+  text-align: center;
+}
+
+#greet {
+  color: green;
+  font-size: 50px;
+}
+
+.me {
+  color: red;
+  font-size: 20px;
+}
+
+.grid-container footer {
+  background-color: blue;
+  color: azure;
+  text-align: center;
+}
