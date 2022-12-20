@@ -4,37 +4,71 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: black;
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-rows: 100px 500px 95px;
+header {
+  height: 100vh;
+  position: relative;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(IMG_9377.JPG);
+  background-size: cover;
 }
 
 nav {
-  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(219, 214, 214);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.inside-container {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+
+img {
   background-color: black;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 
-.grid-container section {
-  background-color: wheat;
-  text-align: center;
+.menu {
+  margin-right: 50px;
 }
 
-#greet {
-  color: green;
-  font-size: 50px;
+h1 {
+  color: rgb(240, 237, 237);
+  font-size: 70px;
+  margin-bottom: 16px;
 }
 
-.me {
-  color: red;
-  font-size: 20px;
+p {
+  font-size: 30px;
+  color: rgb(233, 230, 230);
+  margin-bottom: 70px;
 }
 
-.grid-container footer {
-  background-color: blue;
-  color: azure;
-  text-align: center;
+button {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(235, 236, 238);
+  background-color: rgb(36, 37, 36);
+  border: 1px solid white;
+  padding: 16px 32px;
+  border-radius: 25px;
+  margin-left: 230px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: green;
+  color: #000;
+  border: none;
 }
